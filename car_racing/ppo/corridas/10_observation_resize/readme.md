@@ -13,3 +13,9 @@ En términos cualitativos, el video mostró una mejora clara respecto de la fami
 En conjunto, esta corrida mostró que el cambio de observación mediante resize fue una mejora real. A diferencia de las corridas anteriores, aquí hubo una combinación favorable entre rendimiento cuantitativo alto y comportamiento visual consistente, lo que convirtió a `10_observation_resize` en la mejor corrida obtenida hasta ese momento. Además, este resultado sugirió que una parte importante del problema no estaba solo en PPO o en sus hiperparámetros, sino también en cómo el agente procesaba la información visual del entorno.
 
 Se puede ver el detalle de los resultados en la notebook eval y en el video.
+
+[`video`](experiments/carracing_ppo/run_20260424_113851_seed0/videos/best_model_eval-step-0-to-step-2000.mp4)
+
+![](experiments/carracing_ppo/run_20260424_113851_seed0/convergencia_reward_vs_episodios.png)
+
+![](experiments/carracing_ppo/run_20260424_113851_seed0/evaluacion_periodica_reward_medio_vs_timesteps.png)
