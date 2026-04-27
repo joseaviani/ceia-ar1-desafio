@@ -22,7 +22,7 @@ Comparativa entre SARSA (on-policy) y Q-Learning (off-policy) sobre el entorno L
 
 ### [Car Racing](car_racing/) — PPO con observaciones visuales
 
-Aplicación de PPO (Proximal Policy Optimization) al entorno CarRacing-v2, donde el agente aprende a conducir directamente desde píxeles con un espacio de acciones continuo (giro, aceleración, freno). Al combinar percepción visual y control continuo, este entorno requiere aprender simultáneamente representación y política. Se utilizó Stable-Baselines3 con wrappers para preprocesamiento de frames. Los experimentos exploraron el efecto de distintas configuraciones sobre la estabilidad del entrenamiento y la generalización a pistas nuevas. Se identifica SAC como alternativa promisoria por su exploración basada en entropía máxima, aunque no se implementó por limitaciones de tiempo.
+Aplicación de PPO (Proximal Policy Optimization) al entorno CarRacing-v3.
 
 Entre los problemas que trabajamos incluimos **Car Racing** porque representa un problema de aprendizaje por refuerzo completo: el agente debe **aprender a conducir a partir de imágenes**, tomando acciones continuas para maximizar una recompensa acumulada.
 
